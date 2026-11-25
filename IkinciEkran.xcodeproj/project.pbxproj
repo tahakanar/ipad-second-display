@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06A796A5915CF6F778569DAB /* DisplayLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6DCBC0D3FF8C367F5D2E5F /* DisplayLink.swift */; };
+		3026F21B0A0146CEE1CAC440 /* MacDisplayEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB9F2304713CB9D1C985CA7D /* MacDisplayEngine.swift */; };
+		3520231F55776DAB009B9B65 /* DisplayClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80AEEF42AD47AA254862523B /* DisplayClient.swift */; };
+		442EF4CBE0702FFF30D813DC /* DesktopVideoOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19CC86CB23A44B9210FC7A83 /* DesktopVideoOutput.swift */; };
+		63A3155F4D5AFCE7A74C409C /* DisplayServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABFF44083F7A144F6E3441F /* DisplayServer.swift */; };
+		86A2BE6F19A23296D291A0DD /* VirtualDesktop.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07013C8052FF9B7E724A06 /* VirtualDesktop.m */; };
+		ADCA9497786FB6B9D70F8741 /* VideoSurface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447C327EB46A17CE285F9C65 /* VideoSurface.swift */; };
+		AEB4B9C792A4FB786ABA8CD2 /* PadSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E7305682B8D2E7235E90EB /* PadSession.swift */; };
+		C479025B0AB03F177D8E54A3 /* MacDisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A810196775B245E0FA685F6E /* MacDisplayApp.swift */; };
+		D6BF05E828C6C887F097FCB3 /* PadDisplayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B9C96ED881E3540401C9483 /* PadDisplayApp.swift */; };
+		D727E6956B8EDA56AF826AA8 /* HostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD0813E6DAD0F609272DBED /* HostView.swift */; };
+		ECF4D3556C9EF7B5CDEFB3AA /* HostController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9009DF72A4CA45C8CDE3AD16 /* HostController.swift */; };
+		F8FF90A33617AAC585454F5F /* DisplayLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6DCBC0D3FF8C367F5D2E5F /* DisplayLink.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E7305682B8D2E7235E90EB /* PadSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadSession.swift; sourceTree = "<group>"; };
+		0B9C96ED881E3540401C9483 /* PadDisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PadDisplayApp.swift; sourceTree = "<group>"; };
+		19CC86CB23A44B9210FC7A83 /* DesktopVideoOutput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesktopVideoOutput.swift; sourceTree = "<group>"; };
+		447C327EB46A17CE285F9C65 /* VideoSurface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoSurface.swift; sourceTree = "<group>"; };
+		80AEEF42AD47AA254862523B /* DisplayClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayClient.swift; sourceTree = "<group>"; };
+		8AD0813E6DAD0F609272DBED /* HostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostView.swift; sourceTree = "<group>"; };
+		8F07013C8052FF9B7E724A06 /* VirtualDesktop.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VirtualDesktop.m; sourceTree = "<group>"; };
+		9009DF72A4CA45C8CDE3AD16 /* HostController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HostController.swift; sourceTree = "<group>"; };
+		96C9290DA2C41BCF39D634B6 /* MacEngine-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MacEngine-Bridging-Header.h"; sourceTree = "<group>"; };
+		A810196775B245E0FA685F6E /* MacDisplayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacDisplayApp.swift; sourceTree = "<group>"; };
+		BA6DCBC0D3FF8C367F5D2E5F /* DisplayLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayLink.swift; sourceTree = "<group>"; };
+		C398533DB2BD0762729C2234 /* VirtualDesktop.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualDesktop.h; sourceTree = "<group>"; };
+		CB9F2304713CB9D1C985CA7D /* MacDisplayEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacDisplayEngine.swift; sourceTree = "<group>"; };
+		CD66695B9B284C4885BD807C /* iPadDisplay.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = iPadDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02835D60927530362F5113B /* MacDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABFF44083F7A144F6E3441F /* DisplayServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayServer.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6D4FDCF70DF8269BF2C377E8 /* MacEngine */ = {
+			isa = PBXGroup;
+			children = (
+				19CC86CB23A44B9210FC7A83 /* DesktopVideoOutput.swift */,
+				CB9F2304713CB9D1C985CA7D /* MacDisplayEngine.swift */,
+				96C9290DA2C41BCF39D634B6 /* MacEngine-Bridging-Header.h */,
+				C398533DB2BD0762729C2234 /* VirtualDesktop.h */,
+				8F07013C8052FF9B7E724A06 /* VirtualDesktop.m */,
+			);
+			path = MacEngine;
+			sourceTree = "<group>";
+		};
+		A78405B1C9940177C866D6A9 = {
+			isa = PBXGroup;
+			children = (
+				BD7CF1D9E5DA689953648460 /* iPadClient */,
+				D12FA8F7FA5A7FFD13F9D491 /* MacApp */,
+				6D4FDCF70DF8269BF2C377E8 /* MacEngine */,
+				EEBB410EF3E4F99C0E558B2B /* Shared */,
+				C439767FC0ED03DC50751E73 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD7CF1D9E5DA689953648460 /* iPadClient */ = {
+			isa = PBXGroup;
+			children = (
+				0B9C96ED881E3540401C9483 /* PadDisplayApp.swift */,
+				03E7305682B8D2E7235E90EB /* PadSession.swift */,
+				447C327EB46A17CE285F9C65 /* VideoSurface.swift */,
+			);
+			path = iPadClient;
+			sourceTree = "<group>";
+		};
+		C439767FC0ED03DC50751E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD66695B9B284C4885BD807C /* iPadDisplay.app */,
+				E02835D60927530362F5113B /* MacDisplay.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D12FA8F7FA5A7FFD13F9D491 /* MacApp */ = {
+			isa = PBXGroup;
+			children = (
+				9009DF72A4CA45C8CDE3AD16 /* HostController.swift */,
+				8AD0813E6DAD0F609272DBED /* HostView.swift */,
+				A810196775B245E0FA685F6E /* MacDisplayApp.swift */,
+			);
+			path = MacApp;
+			sourceTree = "<group>";
+		};
+		EEBB410EF3E4F99C0E558B2B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				80AEEF42AD47AA254862523B /* DisplayClient.swift */,
+				BA6DCBC0D3FF8C367F5D2E5F /* DisplayLink.swift */,
+				FABFF44083F7A144F6E3441F /* DisplayServer.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0DECC58F6FBE15E2AC6C9A68 /* iPadDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3044C8CAC0B3C876FA6CEE2A /* Build configuration list for PBXNativeTarget "iPadDisplay" */;
+			buildPhases = (
+				FA001498C8E8CA079B2112BC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPadDisplay;
+			packageProductDependencies = (
+			);
+			productName = iPadDisplay;
+			productReference = CD66695B9B284C4885BD807C /* iPadDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DC07EE7600EACD2DCC54A258 /* MacDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C083FADA43CE1C2AEBF25A5 /* Build configuration list for PBXNativeTarget "MacDisplay" */;
+			buildPhases = (
+				FF730BDDA3476CB06B8BBF3F /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MacDisplay;
+			packageProductDependencies = (
+			);
+			productName = MacDisplay;
+			productReference = E02835D60927530362F5113B /* MacDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		657DA1136A424E3CCD265DE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					0DECC58F6FBE15E2AC6C9A68 = {
+						ProvisioningStyle = Automatic;
+					};
+					DC07EE7600EACD2DCC54A258 = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 60F200E40194004FA421F2F3 /* Build configuration list for PBXProject "IkinciEkran" */;
+			developmentRegion = tr;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				tr,
+			);
+			mainGroup = A78405B1C9940177C866D6A9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C439767FC0ED03DC50751E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC07EE7600EACD2DCC54A258 /* MacDisplay */,
+				0DECC58F6FBE15E2AC6C9A68 /* iPadDisplay */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA001498C8E8CA079B2112BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3520231F55776DAB009B9B65 /* DisplayClient.swift in Sources */,
+				F8FF90A33617AAC585454F5F /* DisplayLink.swift in Sources */,
+				D6BF05E828C6C887F097FCB3 /* PadDisplayApp.swift in Sources */,
+				AEB4B9C792A4FB786ABA8CD2 /* PadSession.swift in Sources */,
+				ADCA9497786FB6B9D70F8741 /* VideoSurface.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF730BDDA3476CB06B8BBF3F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				442EF4CBE0702FFF30D813DC /* DesktopVideoOutput.swift in Sources */,
+				06A796A5915CF6F778569DAB /* DisplayLink.swift in Sources */,
+				63A3155F4D5AFCE7A74C409C /* DisplayServer.swift in Sources */,
+				ECF4D3556C9EF7B5CDEFB3AA /* HostController.swift in Sources */,
+				D727E6956B8EDA56AF826AA8 /* HostView.swift in Sources */,
+				C479025B0AB03F177D8E54A3 /* MacDisplayApp.swift in Sources */,
+				3026F21B0A0146CEE1CAC440 /* MacDisplayEngine.swift in Sources */,
+				86A2BE6F19A23296D291A0DD /* VirtualDesktop.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0DDCBB7FCD972949319A6DF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Configuration/Mac-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.ikinciekran.mac;
+				PRODUCT_NAME = MacDisplay;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "MacEngine/MacEngine-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		0EEAF8F0B00C38335668A589 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "Configuration/Mac-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.ikinciekran.mac;
+				PRODUCT_NAME = MacDisplay;
+				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "MacEngine/MacEngine-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		2600650F8CAB8CB0957AA07D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		268C8932F7B7DE899871E14F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Configuration/iPad-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.ikinciekran.pad;
+				PRODUCT_NAME = iPadDisplay;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		E7011D5542CC2013B7666772 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FACFC92BC5BCB74177BB5DCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Configuration/iPad-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = dev.local.ikinciekran.pad;
+				PRODUCT_NAME = iPadDisplay;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3044C8CAC0B3C876FA6CEE2A /* Build configuration list for PBXNativeTarget "iPadDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FACFC92BC5BCB74177BB5DCD /* Debug */,
+				268C8932F7B7DE899871E14F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4C083FADA43CE1C2AEBF25A5 /* Build configuration list for PBXNativeTarget "MacDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EEAF8F0B00C38335668A589 /* Debug */,
+				0DDCBB7FCD972949319A6DF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		60F200E40194004FA421F2F3 /* Build configuration list for PBXProject "IkinciEkran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2600650F8CAB8CB0957AA07D /* Debug */,
+				E7011D5542CC2013B7666772 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 657DA1136A424E3CCD265DE2 /* Project object */;
+}

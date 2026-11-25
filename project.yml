@@ -1,0 +1,50 @@
+name: IkinciEkran
+options:
+  developmentLanguage: tr
+  deploymentTarget:
+    macOS: "14.0"
+    iOS: "15.0"
+settings:
+  base:
+    SWIFT_VERSION: "5.0"
+    CLANG_ENABLE_OBJC_ARC: YES
+    MARKETING_VERSION: 1.0
+    CURRENT_PROJECT_VERSION: 1
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+targets:
+  MacDisplay:
+    type: application
+    platform: macOS
+    sources: [MacApp, MacEngine, Shared/DisplayLink.swift, Shared/DisplayServer.swift]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.local.ikinciekran.mac
+        PRODUCT_NAME: MacDisplay
+        INFOPLIST_FILE: Configuration/Mac-Info.plist
+        SWIFT_OBJC_BRIDGING_HEADER: MacEngine/MacEngine-Bridging-Header.h
+        ENABLE_HARDENED_RUNTIME: YES
+        CODE_SIGN_IDENTITY: "-"
+        CODE_SIGN_STYLE: Manual
+        COMBINE_HIDPI_IMAGES: YES
+  iPadDisplay:
+    type: application
+    platform: iOS
+    sources: [iPadClient, Shared/DisplayLink.swift, Shared/DisplayClient.swift]
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: dev.local.ikinciekran.pad
+        PRODUCT_NAME: iPadDisplay
+        INFOPLIST_FILE: Configuration/iPad-Info.plist
+        CODE_SIGN_STYLE: Automatic
+        TARGETED_DEVICE_FAMILY: "2"
+        SUPPORTS_MACCATALYST: NO
+        SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD: NO
+schemes:
+  MacDisplay:
+    build:
+      targets:
+        MacDisplay: all
+  iPadDisplay:
+    build:
+      targets:
+        iPadDisplay: all
